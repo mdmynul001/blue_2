@@ -1,1 +1,1 @@
-# blue_2
+https://mdmynul001.github.io/blue_2/
