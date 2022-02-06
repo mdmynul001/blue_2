@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* header start */
+
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper {
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 25px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	 list-style: none;
+    float: left;
+}
+.menu ul li a {
+   text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    color: white;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#0078BD ;
+}
+/* header end */
+
+
+/*header color #121B2A
+blue  #C5CFDF   0178BC
+0468A3
+
+/* banner start */
+.banner {
+	background-image: url(../images/bootstrap4.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/*min-height: 300px;*/
+}
+
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+}
+.banner-content p:first-child{
+	color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.banner-content h1{
+	color: #0075B8;
+	font-size: 30px;
+   font-family: sans-serif;
+
+}
+.banner-content p:nth-last-child(2) 
+{
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.banner-content button{
+	    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #5A5A5A;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: white;
+    text-transform: uppercase;   
+}
+.banner-content button span{
+	  background-color: blue;
+    padding: 4px 7px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+}
+/*service start*/
+.service {
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+
+.single {
+	
+	width: 28%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+	margin-left: 5px;
+}
+.single:last-child{
+	border-right: 0;
+}
+.title {
+	overflow: hidden;
+	/*border: 2px solid;*/
+	margin-bottom: 5px;
+}
+
+.icon {
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+
+.icon-content {
+	/*border: 1px solid red;*/
+	width: 70%;
+	float: left;
+	margin-top: 7px;
+}
+.icon-content h1{
+	color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.icon-content h2{
+    color: #0078B5;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    /*I did letter spasing*/
+    letter-spacing: -3px;
+}
+.content{}
+.content p{
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.4;
+	font-size: 15px;
+}
+.color_b{
+	color: #0075b7;
+}
+/*service end*/
+
+/*blue detail start*/
+.detail {
+	width: 100%;
+	height: 240px;
+	background-color: #040811;
+}
+
+.container {
+	color: #b3b7b8;
+}
+.container h1{
+	margin: 10px 0 10px 0;
+}
+.address{
+	width: 25%;
+	float: left;
+	margin-left: 79px;
+	overflow: hidden;
+}
+.address p{
+	padding: 1px;
+}
+.address h1{
+	color: #feffff;
+	padding: 1px;
+}
+.contact {
+	
+	overflow: hidden;
+}
+
+.name {
+	float: left;
+}
+
+.data {
+	float: right;
+}
+.customers{
+	overflow: hidden;
+	background-color: #0c1019;
+}
+.customers p{
+	margin-bottom: 20px;
+}
+/*.customers h4{
+	margin-top: 20px;*/
+}
+.margin_top{
+	margin-top: 20px;
+}
+.apple_l{
+	float: left;
+	width: 40%;	
+}
+
+.apple_d{
+	float: right;
+}
+.apple_store{
+    /*border: 1px solid white;*/
+	width: 30%;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+}
+.apple_store img{
+	width: 100%;
+}
+.apple_app{
+	float: left;
+}
+
+
+
+
+/*blue detail end*/
+
